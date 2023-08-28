@@ -13,5 +13,5 @@ Control:
 
 The game is written FreePascal;
 
-<<FPC>> compiler required;
+<FPC> compiler required;
 
