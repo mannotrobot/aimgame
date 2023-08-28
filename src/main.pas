@@ -148,6 +148,8 @@ begin
              one_moving(new_target);
              draw_aim(new_aim);
         end;
+        if live <= 0 then
+            break;
         get_key(code);
         case code of
             27 : break;
@@ -192,6 +194,6 @@ begin
     gotoxy((screenwidth div 2 ) - 9, screenheight div 2);
     textcolor(red);
     write('GAME OVERR');
-    delay(1000);
+    delay(3000);
     clrscr;
 end.
