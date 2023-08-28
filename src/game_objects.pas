@@ -10,6 +10,7 @@ type
         coords: array [0..3] of xy;
 	c: char;
 	main: xy;
+        col: integer;
     end;
 
     target = record
